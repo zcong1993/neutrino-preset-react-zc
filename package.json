@@ -10,6 +10,13 @@
   "files": [
     "index.js"
   ],
+  "keywords": [
+    "neutrino",
+    "neutrino-preset",
+    "react",
+    "web",
+    "zc"
+  ],
   "scripts": {
     "test": "jest && npm run lint",
     "lint": "xo"
