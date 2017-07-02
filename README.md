@@ -6,9 +6,28 @@
 
 ## Features
 
+- Support [CSS modules](https://github.com/css-modules/css-modules)
 - Extends from [neutrino-preset-react](https://github.com/mozilla-neutrino/neutrino-dev/tree/master/packages/neutrino-preset-react)
 - Support `babel-plugin-react-require`
 - Fix `svg-url-loader` config [error](https://github.com/mozilla-neutrino/neutrino-dev/issues/272)
+
+## CSS modules
+
+> inspired by [poi](https://poi.js.org)
+
+Files ending with `.module.css` support CSS modules by default.
+
+To enable CSS modules for all CSS files, set `cssModules: true` in config file.
+
+```js
+module.exports = {
+  use: [
+    ['neutrino-preset-react-zc', {
+      cssModules: true
+    }]
+  ]
+}
+```
 
 ## Install
 

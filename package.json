@@ -31,6 +31,7 @@
     "deepmerge": "^1.4.4",
     "neutrino-middleware-compile-loader": "^6.1.4",
     "neutrino-middleware-image-loader": "^6.1.4",
+    "neutrino-middleware-style-loader": "^6.1.4",
     "neutrino-preset-react": "^6.1.4"
   },
   "devDependencies": {
