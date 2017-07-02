@@ -8,7 +8,6 @@
 
 - Support [CSS modules](https://github.com/css-modules/css-modules)
 - Extends from [neutrino-preset-react](https://github.com/mozilla-neutrino/neutrino-dev/tree/master/packages/neutrino-preset-react)
-- Support `babel-plugin-react-require`
 - Fix `svg-url-loader` config [error](https://github.com/mozilla-neutrino/neutrino-dev/issues/272)
 
 ## CSS modules

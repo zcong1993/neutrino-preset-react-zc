@@ -8,8 +8,7 @@
   },
   "main": "index.js",
   "files": [
-    "index.js",
-    "css-module-loader.js"
+    "index.js"
   ],
   "keywords": [
     "neutrino",
@@ -28,11 +27,10 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "babel-plugin-react-require": "^3.0.0",
     "deepmerge": "^1.4.4",
     "neutrino-middleware-compile-loader": "^6.1.4",
     "neutrino-middleware-image-loader": "^6.1.4",
-    "neutrino-middleware-style-loader": "^6.1.4",
+    "neutrino-middleware-styles-loader": "^0.0.2",
     "neutrino-preset-react": "^6.1.4"
   },
   "devDependencies": {
